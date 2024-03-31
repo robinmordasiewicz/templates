@@ -4,7 +4,7 @@
       "cudaVersion": "12.2"
     },
     "ghcr.io/iterative/features/nvtop": {},
-    "ghcr.io/robinmordasiewicz/features/ollama": {},
+    "ghcr.io/prulloac/devcontainer-features/ollama": {},
     "ghcr.io/robinmordasiewicz/features/preinstall-extensions": {
       "extensions": [
         "Maimonator.gpu-monitor"
