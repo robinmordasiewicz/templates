@@ -8,7 +8,6 @@ Ollama packaged with models
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
 | imageVariant | Only Ubuntu 22.04 on amd64 is supported. | string | jammy |
-| models | Add your list of models. | string | mistral |
 
 
 
