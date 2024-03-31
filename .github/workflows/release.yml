@@ -19,5 +19,3 @@ jobs:
         with:
           publish-templates: "true"
           base-path-to-templates: "./src"
-        env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
