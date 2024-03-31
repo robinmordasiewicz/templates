@@ -32,6 +32,6 @@ jobs:
         uses: devcontainers/ci@7957e0cf6d027a8ab027745f399fcdbd3aa74f0f
         with:
           subFolder: src/ollama
-          imageName: ghcr.io/${{ github.repository }}
-          cacheFrom: ghcr.io/${{ github.repository }}
+          imageName: ghcr.io/robinmordasiewicz/ollama
+          cacheFrom: ghcr.io/robinmordasiewicz/ollama
           push: always
