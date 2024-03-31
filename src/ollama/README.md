@@ -7,7 +7,7 @@ Ollama packaged with models
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| imageVariant | Debian version (use bullseye on local arm64/Apple Silicon): | string | bullseye |
+| imageVariant | Only Ubuntu 22.04 on amd64 is supported. | string | jammy |
 | models | Add your list of models. | string | mistral |
 
 
