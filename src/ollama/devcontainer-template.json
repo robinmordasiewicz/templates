@@ -1,6 +1,6 @@
 {
     "id": "ollama",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "name": "Ollama Container",
     "description": "Ollama packaged with models",
     "documentationURL": "https://github.com/robinmordasiewicz/templates/tree/main/src/ollama",
@@ -8,12 +8,11 @@
     "options": {
         "imageVariant": {
             "type": "string",
-            "description": "Debian version (use bullseye on local arm64/Apple Silicon):",
+            "description": "Only Ubuntu 22.04 on amd64 is supported.",
             "proposals": [
-                "bullseye",
-                "buster"
+                "jammy"
             ],
-            "default": "bullseye"
+            "default": "jammy"
         },
         "models": {
             "type": "string",
@@ -27,6 +26,6 @@
         }
     },
     "platforms": [
-        "Any"
+        "linux/amd64"
     ]
 }
