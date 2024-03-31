@@ -1,4 +1,5 @@
-name: "(Release) Release dev container templates"
+---
+name: "Publish devcontainer templates"
 on:
   workflow_dispatch:
   push:
