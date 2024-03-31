@@ -1,31 +1,31 @@
 {
-    "id": "ollama",
-    "version": "0.0.3",
-    "name": "Ollama Container",
-    "description": "Ollama packaged with models",
-    "documentationURL": "https://github.com/robinmordasiewicz/templates/tree/main/src/ollama",
-    "licenseURL": "https://github.com/robinmordasiewicz/templates/blob/main/LICENSE",
-    "options": {
-        "imageVariant": {
-            "type": "string",
-            "description": "Only Ubuntu 22.04 on amd64 is supported.",
-            "proposals": [
-                "jammy"
-            ],
-            "default": "jammy"
-        },
-        "models": {
-            "type": "string",
-            "description": "Add your list of models.",
-            "proposals": [
-                "mistral",
-                "starcoder",
-                "stable-code"
-            ],
-            "default": "mistral"
-        }
+  "description": "Ollama packaged with models",
+  "documentationURL": "https://github.com/robinmordasiewicz/templates/tree/main/src/ollama",
+  "id": "ollama",
+  "licenseURL": "https://github.com/robinmordasiewicz/templates/blob/main/LICENSE",
+  "name": "Ollama Container",
+  "options": {
+    "imageVariant": {
+      "default": "jammy",
+      "description": "Only Ubuntu 22.04 on amd64 is supported.",
+      "proposals": [
+        "jammy"
+      ],
+      "type": "string"
     },
-    "platforms": [
-        "linux/amd64"
-    ]
+    "models": {
+      "default": "mistral",
+      "description": "Add your list of models.",
+      "proposals": [
+        "mistral",
+        "starcoder",
+        "stable-code"
+      ],
+      "type": "string"
+    }
+  },
+  "platforms": [
+    "linux/amd64"
+  ],
+  "version": "0.0.4"
 }
