@@ -1,4 +1,5 @@
-name: "Update Documentation"
+---
+name: "Update devcontainer template documentation"
 on:
   push:
     branches:
