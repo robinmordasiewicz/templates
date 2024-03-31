@@ -12,20 +12,10 @@
         "jammy"
       ],
       "type": "string"
-    },
-    "models": {
-      "default": "mistral",
-      "description": "Add your list of models.",
-      "proposals": [
-        "mistral",
-        "starcoder",
-        "stable-code"
-      ],
-      "type": "string"
     }
   },
   "platforms": [
     "linux/amd64"
   ],
-  "version": "0.0.6"
+  "version": "0.0.7"
 }
