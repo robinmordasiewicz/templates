@@ -2,8 +2,8 @@
 name: "Update devcontainer template documentation"
 on:
   push:
-    branches:
-      - main
+    paths:
+      - 'src/**/*.md'
   workflow_dispatch:
 
 concurrency:
