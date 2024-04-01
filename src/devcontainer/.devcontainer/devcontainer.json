@@ -102,6 +102,7 @@
     "ghcr.io/prulloac/devcontainer-features/gitlint": {},
     "ghcr.io/prulloac/devcontainer-features/pre-commit": {},
     "ghcr.io/robinmordasiewicz/features/container-dotfiles": {},
+    "ghcr.io/robinmordasiewicz/features/continue": {},
     "ghcr.io/robinmordasiewicz/features/fortidevsec:latest": {},
     "ghcr.io/robinmordasiewicz/features/lazygit": {},
     "ghcr.io/robinmordasiewicz/features/lsd": {},
@@ -135,7 +136,6 @@
       "extensions": [
         "alexcvzz.vscode-sqlite",
         "amazonwebservices.aws-toolkit-vscode",
-        "continue.continue",
         "dbaeumer.vscode-eslint",
         "eamodio.gitlens",
         "esbenp.prettier-vscode",
