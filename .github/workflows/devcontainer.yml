@@ -15,22 +15,28 @@ jobs:
   build-and-push:
     runs-on: self-hosted
     steps:
-      -
-        name: Checkout
+      - name: Checkout
         id: checkout
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
-      -
-        name: Login to GitHub Container Registry
+
+      - name: Login to GitHub Container Registry
         uses: docker/login-action@e92390c5fb421da1463c202d546fed0ec5c39f20
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{secrets.GITHUB_TOKEN}}
-      -
-        name: Pre-build devcontainer image
-        uses: devcontainers/ci@7957e0cf6d027a8ab027745f399fcdbd3aa74f0f
-        with:
-          subFolder: src/devcontainer
-          imageName: ghcr.io/robinmordasiewicz/devcontainer
-          cacheFrom: ghcr.io/robinmordasiewicz/devcontainer
-          push: always
+
+      - name: build the containers
+        run: devcontainer build --workspace-folder . --platform linux/arm64,linux/amd64 --image-name ghcr.io/robinmordasiewicz/devcontainer:latest --output type=docker
+      
+      - name: docker push
+        run: docker push ghcr.io/robinmordasiewicz/devcontainer:latest
+
+      #-
+      #  name: Pre-build devcontainer image
+      #  uses: devcontainers/ci@7957e0cf6d027a8ab027745f399fcdbd3aa74f0f
+      #  with:
+      #    subFolder: src/devcontainer
+      #    imageName: ghcr.io/robinmordasiewicz/devcontainer
+      #    cacheFrom: ghcr.io/robinmordasiewicz/devcontainer
+      #    push: always
