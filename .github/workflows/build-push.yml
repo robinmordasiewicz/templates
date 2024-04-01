@@ -35,3 +35,11 @@ jobs:
           imageName: ghcr.io/robinmordasiewicz/ollama
           cacheFrom: ghcr.io/robinmordasiewicz/ollama
           push: always
+      -
+        name: Pre-build dev container image
+        uses: devcontainers/ci@7957e0cf6d027a8ab027745f399fcdbd3aa74f0f
+        with:
+          subFolder: src/devcontainer
+          imageName: ghcr.io/robinmordasiewicz/devcontainer
+          cacheFrom: ghcr.io/robinmordasiewicz/devcontainer
+          push: always
