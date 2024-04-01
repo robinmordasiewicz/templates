@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'src/llm-prompt/**'
+      - 'src/llm-prompt/**/*.json'
 
 concurrency:
   group: ${{ github.workflow }}

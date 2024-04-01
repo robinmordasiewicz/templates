@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'src/devcontainer/**'
+      - 'src/devcontainer/**/*.json'
 
 concurrency:
   group: ${{ github.workflow }}

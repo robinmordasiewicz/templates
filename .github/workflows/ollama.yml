@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'src/ollama/**'
+      - 'src/ollama/**/*.json'
 
 concurrency:
   group: ${{ github.workflow }}
