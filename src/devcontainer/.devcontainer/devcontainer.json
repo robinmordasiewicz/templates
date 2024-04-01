@@ -98,6 +98,7 @@
     },
     "ghcr.io/dhoeric/features/tfsec": {},
     "ghcr.io/guiyomh/features/vim": {},
+    "ghcr.io/itsmechlark/features/postgresql": {},
     "ghcr.io/jsburckhardt/devcontainer-features/gitleaks": {},
     "ghcr.io/jungaretti/features/make": {},
     "ghcr.io/lukewiwa/features/shellcheck": {},

@@ -3,7 +3,6 @@
   "image": "docker.io/robinmordasiewicz/devcontainer:latest",
   "initializeCommand": "docker pull docker.io/robinmordasiewicz/devcontainer:latest",
   "features": {
-    "ghcr.io/itsmechlark/features/postgresql": {},
     "ghcr.io/robinmordasiewicz/features/autogen-environment": {},
     "ghcr.io/robinmordasiewicz/features/memgpt-environment": {},
     "ghcr.io/robinmordasiewicz/features/chunking-environment": {},
