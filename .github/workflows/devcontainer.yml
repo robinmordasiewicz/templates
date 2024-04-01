@@ -1,16 +1,11 @@
 ---
-name: Dev Container Build and Push Image
+name: Build and Push devcontainer Image
 
 on:
   workflow_dispatch:
   push:
-    branches:
-      - "main"
-    tags:
-      - "v*.*.*"
-    pull_requests:
-      branches:
-        - "main"
+    paths:
+      - 'src/devcontainer/**'
 
 concurrency:
   group: ${{ github.workflow }}
@@ -32,15 +27,7 @@ jobs:
           username: ${{ github.actor }}
           password: ${{secrets.GITHUB_TOKEN}}
       -
-        name: Pre-build dev container image
-        uses: devcontainers/ci@7957e0cf6d027a8ab027745f399fcdbd3aa74f0f
-        with:
-          subFolder: src/ollama
-          imageName: ghcr.io/robinmordasiewicz/ollama
-          cacheFrom: ghcr.io/robinmordasiewicz/ollama
-          push: always
-      -
-        name: Pre-build dev container image
+        name: Pre-build devcontainer image
         uses: devcontainers/ci@7957e0cf6d027a8ab027745f399fcdbd3aa74f0f
         with:
           subFolder: src/devcontainer
