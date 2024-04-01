@@ -1,0 +1,20 @@
+{
+  "name": "llm-prompt",
+  "image": "ghcr.io/robinmordasiewicz/devcontainer:latest",
+  "initializeCommand": "docker pull ghcr.io/robinmordasiewicz/devcontainer:latest",
+  "features": {
+    "ghcr.io/itsmechlark/features/postgresql": {},
+    "ghcr.io/robinmordasiewicz/features/autogen-environment": {},
+    "ghcr.io/robinmordasiewicz/features/memgpt-environment": {},
+    "ghcr.io/robinmordasiewicz/features/chunking-environment": {},
+    "ghcr.io/robinmordasiewicz/features/jupyter-environment": {}
+  },
+  "shutdownAction": "stopContainer",
+  "runArgs": [
+    "--name=llm-prompt",
+    "--hostname=llm-prompt"
+  ],
+  "mounts": [
+    "source=${localEnv:HOME}${localEnv:USERPROFILE}/data,target=/data,type=bind,consistency=cached"
+  ]
+}

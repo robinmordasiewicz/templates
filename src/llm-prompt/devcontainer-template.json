@@ -1,0 +1,22 @@
+{
+  "description": "LLM Prompt Tookit",
+  "documentationURL": "https://github.com/robinmordasiewicz/templates/tree/main/src/llm-prompt",
+  "id": "llm-prompt",
+  "licenseURL": "https://github.com/robinmordasiewicz/templates/blob/main/LICENSE",
+  "name": "LLM Prompt Container",
+  "options": {
+    "imageVariant": {
+      "default": "jammy",
+      "description": "Ubuntu preconfigured with conda environments to run LLM tools",
+      "proposals": [
+        "jammy"
+      ],
+      "type": "string"
+    }
+  },
+  "platforms": [
+    "linux/amd64",
+    "linux/arm64"
+  ],
+  "version": "0.0.8"
+}
