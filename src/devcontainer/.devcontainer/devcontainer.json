@@ -89,9 +89,6 @@
     "ghcr.io/devcontainers/features/docker-outside-of-docker": {},
     "ghcr.io/devcontainers/features/github-cli": {},
     "ghcr.io/devcontainers/features/node": {},
-    "ghcr.io/robinmordasiewicz/features/powershell": {
-      "powershellProfileURL": "https://raw.githubusercontent.com/robinmordasiewicz/dotfiles/main/Microsoft.PowerShell_profile.ps1"
-    },
     "ghcr.io/devcontainers/features/python": {
       "installTools": true,
       "version": "3.11"
@@ -128,6 +125,9 @@
     },
     "ghcr.io/robinmordasiewicz/features/oh-my-posh": {},
     "ghcr.io/robinmordasiewicz/features/opencommit": {},
+    "ghcr.io/robinmordasiewicz/features/powershell": {
+      "powershellProfileURL": "https://raw.githubusercontent.com/robinmordasiewicz/dotfiles/main/Microsoft.PowerShell_profile.ps1"
+    },
     "ghcr.io/robinmordasiewicz/features/powershell-modules": {
       "modules": "Terminal-Icons,z,PowerShellAI"
     },

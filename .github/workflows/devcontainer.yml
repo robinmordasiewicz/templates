@@ -1,8 +1,7 @@
 ---
-name: Build and Push devcontainer Images
+name: Build and Push devcontainers
 
 on:
-  workflow_dispatch:
   push:
     paths:
       - 'src/devcontainer/**/*.json'
@@ -13,16 +12,6 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-    # run only if 'workflows' files were changed
-    - name: workflow tests
-      if: steps.filter.outputs.baseimage == 'true'
-      run: echo "Base Image"
-
-    # run only if not 'workflows' files were changed
-    - name: not workflow tests
-      if: steps.filter.outputs.llm-prompt == 'true'
-      run: echo "NOT Base Image"
-
   build-and-push:
     runs-on: self-hosted
     steps:
@@ -42,7 +31,7 @@ jobs:
       - name: build base image
         if: steps.filter.outputs.baseimage == 'true'
         run: cd src/devcontainer && devcontainer build --workspace-folder . --platform linux/arm64,linux/amd64 --image-name docker.io/robinmordasiewicz/devcontainer:latest --output type=docker
-      
+
       - name: docker push
         if: steps.filter.outputs.baseimage == 'true'
         run: docker push docker.io/robinmordasiewicz/devcontainer:latest
@@ -50,7 +39,7 @@ jobs:
       - name: build llm-prompt
         if: steps.filter.outputs.llm-prompt == 'true'
         run: cd src/llm-prompt && devcontainer build --workspace-folder . --platform linux/arm64,linux/amd64 --image-name docker.io/robinmordasiewicz/llm-prompt:latest --output type=docker
-      
+
       - name: docker push
         if: steps.filter.outputs.llm-prompt == 'true'
         run: docker push docker.io/robinmordasiewicz/llm-prompt:latest
