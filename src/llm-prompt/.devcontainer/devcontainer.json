@@ -1,7 +1,7 @@
 {
   "name": "llm-prompt",
-  "image": "ghcr.io/robinmordasiewicz/devcontainer:latest",
-  "initializeCommand": "docker pull ghcr.io/robinmordasiewicz/devcontainer:latest",
+  "image": "docker.io/robinmordasiewicz/devcontainer:latest",
+  "initializeCommand": "docker pull docker.io/robinmordasiewicz/devcontainer:latest",
   "features": {
     "ghcr.io/itsmechlark/features/postgresql": {},
     "ghcr.io/robinmordasiewicz/features/autogen-environment": {},
