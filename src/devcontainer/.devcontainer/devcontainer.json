@@ -158,6 +158,7 @@
         "ms-azuretools.vscode-docker",
         "ms-cst-e.vscode-devskim",
         "ms-dotnettools.vscode-dotnet-runtime",
+        "ms-ossdata.vscode-postgresql",
         "ms-python.debugpy",
         "ms-python.python",
         "ms-python.vscode-pylance",
