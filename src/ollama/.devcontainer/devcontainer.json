@@ -3,6 +3,8 @@
     "ghcr.io/devcontainers/features/nvidia-cuda": {
       "cudaVersion": "12.2"
     },
+    "ghcr.io/iterative/features/nvtop": {},
+    "ghcr.io/prulloac/devcontainer-features/ollama": {},
     "ghcr.io/robinmordasiewicz/features/ollama-persistence": {
       "models": [
         "codellama:34b",
@@ -21,8 +23,6 @@
         "starcoder2:3b"
       ]
     },
-    "ghcr.io/iterative/features/nvtop": {},
-    "ghcr.io/prulloac/devcontainer-features/ollama": {},
     "ghcr.io/robinmordasiewicz/features/preinstall-extensions": {
       "extensions": [
         "Maimonator.gpu-monitor"
