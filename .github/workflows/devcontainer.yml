@@ -38,7 +38,7 @@ jobs:
 
       - name: build llm-prompt
         if: steps.filter.outputs.llm-prompt == 'true' || steps.filter.outputs.baseimage == 'true'
-        run: cd src/llm-prompt && devcontainer build --workspace-folder . --platform linux/arm64,linux/amd64 --image-name docker.io/robinmordasiewicz/llm-prompt:latest --output type=docker
+        run: cd src/llm-prompt && devcontainer build --workspace-folder . --platform linux/amd64 --image-name docker.io/robinmordasiewicz/llm-prompt:latest --output type=docker
 
       - name: docker push 
         if: steps.filter.outputs.llm-prompt == 'true' || steps.filter.outputs.baseimage == 'true'
