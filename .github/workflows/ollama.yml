@@ -20,17 +20,10 @@ jobs:
         id: checkout
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
       -
-        name: Login to GitHub Container Registry
-        uses: docker/login-action@e92390c5fb421da1463c202d546fed0ec5c39f20
-        with:
-          registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{secrets.GITHUB_TOKEN}}
-      -
         name: Pre-build ollama image
         uses: devcontainers/ci@7957e0cf6d027a8ab027745f399fcdbd3aa74f0f
         with:
           subFolder: src/ollama
-          imageName: ghcr.io/robinmordasiewicz/ollama
-          cacheFrom: ghcr.io/robinmordasiewicz/ollama
+          imageName: docker.io/robinmordasiewicz/ollama
+          cacheFrom: docker.io/robinmordasiewicz/ollama
           push: always
