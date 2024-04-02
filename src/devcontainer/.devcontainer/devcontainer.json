@@ -167,6 +167,7 @@
         "ms-vscode.azure-account",
         "ms-vscode.azurecli",
         "ms-vscode.powershell",
+        "ms-vscode-remote.remote-ssh",
         "msazurermtools.azurerm-vscode-tools",
         "nhoizey.gremlins",
         "omartawfik.github-actions-vscode",
