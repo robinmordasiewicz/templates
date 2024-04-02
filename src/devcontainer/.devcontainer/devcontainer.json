@@ -145,7 +145,7 @@
         "eamodio.gitlens",
         "esbenp.prettier-vscode",
         "github.vscode-github-actions",
-        "gitHub.vscode-pull-request-github",
+        "github.vscode-pull-request-github",
         "hashicorp.terraform",
         "mhutchie.git-graph",
         "ms-azuretools.vscode-azureappservice",
