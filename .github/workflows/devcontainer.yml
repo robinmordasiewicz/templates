@@ -56,7 +56,7 @@ jobs:
 
       - name: build devops-toolkit
         if: steps.filter.outputs.devops-toolkit == 'true' || steps.filter.outputs.baseimage == 'true'
-        run: cd src/llm-prompt && devcontainer build --workspace-folder . --platform linux/amd64,linux/arm64 --image-name docker.io/robinmordasiewicz/devops-toolkit:latest --output type=docker
+        run: cd src/devops-toolkit && devcontainer build --workspace-folder . --platform linux/amd64,linux/arm64 --image-name docker.io/robinmordasiewicz/devops-toolkit:latest --output type=docker
 
       - name: docker push
         if: steps.filter.outputs.devops-toolkit == 'true' || steps.filter.outputs.baseimage == 'true'
