@@ -1,6 +1,6 @@
 {
   "description": "devcontainer",
-  "documentationURL": "https://github.com/robinmordasiewicz/templates/tree/main/src/ollama",
+  "documentationURL": "https://github.com/robinmordasiewicz/templates/tree/main/src/devcontainer",
   "id": "devcontainer",
   "licenseURL": "https://github.com/robinmordasiewicz/templates/blob/main/LICENSE",
   "name": "devcontainer",
@@ -18,5 +18,5 @@
     "linux/amd64",
     "linux/arm64"
   ],
-  "version": "0.0.22"
+  "version": "0.0.23"
 }
