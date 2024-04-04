@@ -6,6 +6,7 @@ on:
     paths:
       - 'src/devcontainer/**/*.json'
       - 'src/llm-prompt/**/*.json'
+      - 'src/devops-toolkit/**/*.json'
 
 concurrency:
   group: ${{ github.workflow }}
@@ -27,6 +28,8 @@ jobs:
               - 'src/devcontainer/**/*.json'
             llm-prompt:
               - 'src/llm-prompt/**/*.json'
+            devops-toolkit:
+              - 'src/devops-toolkit/**/*.json'
 
       - name: Login to Docker Hub
         if: steps.filter.outputs.llm-prompt == 'true' || steps.filter.outputs.baseimage == 'true'
@@ -50,3 +53,11 @@ jobs:
       - name: docker push
         if: steps.filter.outputs.llm-prompt == 'true' || steps.filter.outputs.baseimage == 'true'
         run: docker push docker.io/robinmordasiewicz/llm-prompt:latest
+
+      - name: build devops-toolkit
+        if: steps.filter.outputs.devops-toolkit == 'true' || steps.filter.outputs.baseimage == 'true'
+        run: cd src/llm-prompt && devcontainer build --workspace-folder . --platform linux/amd64,linux/arm64 --image-name docker.io/robinmordasiewicz/devops-toolkit:latest --output type=docker
+
+      - name: docker push
+        if: steps.filter.outputs.devops-toolkit == 'true' || steps.filter.outputs.baseimage == 'true'
+        run: docker push docker.io/robinmordasiewicz/devops-toolkit:latest
