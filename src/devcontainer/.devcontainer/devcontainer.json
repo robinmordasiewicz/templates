@@ -131,7 +131,8 @@
     },
     "ghcr.io/robinmordasiewicz/features/oh-my-posh": {},
     "ghcr.io/robinmordasiewicz/features/opencommit": {},
-    "ghcr.io/robinmordasiewicz/features/powershell": {
+    "ghcr.io/robinmordasiewicz/features/powershell": {},
+    "ghcr.io/robinmordasiewicz/features/powershell-modules": {
       "modules": [
         "Terminal-Icons",
         "z",
