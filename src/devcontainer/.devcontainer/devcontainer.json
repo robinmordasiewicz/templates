@@ -3,14 +3,6 @@
   "customizations": {
     "vscode": {
       "settings": {
-        "editor.codeActionsOnSave": {
-          "source.organizeImports": true
-        },
-        "editor.formatOnSave": true,
-        "files.eol": "\n",
-        "files.insertFinalNewline": true,
-        "files.trimFinalNewlines": true,
-        "files.trimTrailingWhitespace": true,
         "terminal.integrated.defaultProfile.linux": "zsh",
         "terminal.integrated.profiles.linux": {
           "bash": {
