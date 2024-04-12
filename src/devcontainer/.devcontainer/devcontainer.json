@@ -64,7 +64,6 @@
     "ghcr.io/devcontainers-contrib/features/terraform-docs": {},
     "ghcr.io/devcontainers-contrib/features/terrascan": {},
     "ghcr.io/devcontainers-contrib/features/tmux-apt-get": {},
-    "ghcr.io/devcontainers-contrib/features/trivy": {},
     "ghcr.io/devcontainers-contrib/features/vscode-cli": {},
     "ghcr.io/devcontainers-contrib/features/vscode-server": {},
     "ghcr.io/devcontainers-contrib/features/wget-apt-get": {},
@@ -90,7 +89,9 @@
       "installTools": true,
       "version": "3.11"
     },
+    "ghcr.io/dhoeric/features/terraformer": {},
     "ghcr.io/dhoeric/features/tfsec": {},
+    "ghcr.io/dhoeric/features/trivy": {},
     "ghcr.io/guiyomh/features/vim": {},
     "ghcr.io/hwaien/devcontainer-features/match-host-time-zone": {},
     "ghcr.io/itsmechlark/features/postgresql": {},
