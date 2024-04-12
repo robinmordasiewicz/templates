@@ -50,6 +50,7 @@
       ]
     },
     "ghcr.io/devcontainers-contrib/features/black": {},
+    "ghcr.io/devcontainers-contrib/features/checkov": {},
     "ghcr.io/devcontainers-contrib/features/curl-apt-get": {},
     "ghcr.io/devcontainers-contrib/features/devcontainers-cli": {},
     "ghcr.io/devcontainers-contrib/features/ffmpeg-apt-get": {},
@@ -61,6 +62,7 @@
     "ghcr.io/devcontainers-contrib/features/qrcode:2": {},
     "ghcr.io/devcontainers-contrib/features/shfmt": {},
     "ghcr.io/devcontainers-contrib/features/terraform-docs": {},
+    "ghcr.io/devcontainers-contrib/features/terrascan": {},
     "ghcr.io/devcontainers-contrib/features/tmux-apt-get": {},
     "ghcr.io/devcontainers-contrib/features/vscode-cli": {},
     "ghcr.io/devcontainers-contrib/features/vscode-server": {},
