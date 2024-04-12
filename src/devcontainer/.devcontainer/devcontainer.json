@@ -64,6 +64,7 @@
     "ghcr.io/devcontainers-contrib/features/terraform-docs": {},
     "ghcr.io/devcontainers-contrib/features/terrascan": {},
     "ghcr.io/devcontainers-contrib/features/tmux-apt-get": {},
+    "ghcr.io/devcontainers-contrib/features/trivy": {},
     "ghcr.io/devcontainers-contrib/features/vscode-cli": {},
     "ghcr.io/devcontainers-contrib/features/vscode-server": {},
     "ghcr.io/devcontainers-contrib/features/wget-apt-get": {},
@@ -175,6 +176,7 @@
         "tomoyukim.vscode-mermaid-editor"
       ]
     },
+    "ghcr.io/robinmordasiewicz/features/tflint": {},
     "ghcr.io/robinmordasiewicz/features/update-conda": {},
     "ghcr.io/robinmordasiewicz/features/vimrc": {},
     "ghcr.io/rocker-org/devcontainer-features/miniforge": {},
