@@ -118,6 +118,7 @@
         "jsonlint",
         "newman",
         "prettier",
+        "setup-eslint-config",
         "sql-language-server",
         "stylelint-config-prettier",
         "unified-language-server",
