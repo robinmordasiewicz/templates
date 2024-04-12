@@ -111,10 +111,12 @@
       "extensions": [
         "bash-language-server",
         "dockerfile-language-server-nodejs",
+        "eslint",
         "gatsby-cli",
         "javascript-typescript-langserver",
         "jsonlint",
         "newman",
+        "prettier",
         "sql-language-server",
         "unified-language-server",
         "vscode-css-languageserver-bin",
