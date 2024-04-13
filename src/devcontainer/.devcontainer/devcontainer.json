@@ -34,19 +34,21 @@
     "ghcr.io/devcontainers-contrib/features/ansible": {},
     "ghcr.io/devcontainers-contrib/features/apt-packages": {
       "packages": [
-        "software-properties-common",
-        "iputils-ping",
+        "autoconf",
+        "bash-completion",
         "cmake",
+        "dnsutils",
+        "file",
+        "iputils-ping",
+        "libgif-dev",
         "libpoppler-cpp-dev",
         "libsecret-1-dev",
-        "yelp-tools",
         "libyelp-dev",
-        "libgif-dev",
-        "autoconf",
+        "mtr",
+        "software-properties-common",
         "tesseract-ocr",
         "ubuntu-drivers-common",
-        "bash-completion",
-        "file"
+        "yelp-tools"
       ]
     },
     "ghcr.io/devcontainers-contrib/features/black": {},
