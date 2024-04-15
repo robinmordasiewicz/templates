@@ -38,6 +38,7 @@
         "bash-completion",
         "cmake",
         "dnsutils",
+        "dos2unix",
         "file",
         "iputils-ping",
         "libgif-dev",
@@ -47,6 +48,7 @@
         "mtr",
         "software-properties-common",
         "tesseract-ocr",
+        "tofrodos",
         "ubuntu-drivers-common",
         "yelp-tools"
       ]
