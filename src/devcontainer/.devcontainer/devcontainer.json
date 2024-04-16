@@ -53,6 +53,7 @@
         "yelp-tools"
       ]
     },
+    "ghcr.io/devcontainers-contrib/features/aztfexport": {},
     "ghcr.io/devcontainers-contrib/features/black": {},
     "ghcr.io/devcontainers-contrib/features/checkov": {},
     "ghcr.io/devcontainers-contrib/features/curl-apt-get": {},
@@ -93,6 +94,7 @@
       "installTools": true,
       "version": "3.11"
     },
+    "ghcr.io/dhoeric/features/aztfy": {},
     "ghcr.io/dhoeric/features/terraformer": {},
     "ghcr.io/dhoeric/features/tfsec": {},
     "ghcr.io/dhoeric/features/trivy": {},
