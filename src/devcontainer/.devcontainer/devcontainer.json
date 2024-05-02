@@ -147,6 +147,7 @@
       "extensions": [
         "alexcvzz.vscode-sqlite",
         "amazonwebservices.aws-toolkit-vscode",
+        "amazonwebservices.amazon-q-vscode",
         "davidAnson.vscode-markdownlint",
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
