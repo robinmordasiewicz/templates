@@ -99,6 +99,7 @@
     "ghcr.io/dhoeric/features/tfsec": {},
     "ghcr.io/dhoeric/features/trivy": {},
     "ghcr.io/guiyomh/features/vim": {},
+    "ghcr.io/hspaans/devcontainer-features/ansible-lint": {},
     "ghcr.io/hwaien/devcontainer-features/match-host-time-zone": {},
     "ghcr.io/itsmechlark/features/postgresql": {},
     "ghcr.io/joshuanianji/devcontainer-features/aws-cli-persistence": {},
