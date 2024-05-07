@@ -174,14 +174,18 @@
         "ms-toolsai.vscode-ai-remote",
         "ms-vscode.azure-account",
         "ms-vscode.azurecli",
+        "ms-vscode.vscode-node-azure-pack",
         "ms-vscode.powershell",
         "ms-vscode-remote.remote-ssh",
         "msazurermtools.azurerm-vscode-tools",
         "nhoizey.gremlins",
         "omartawfik.github-actions-vscode",
         "postman.postman-for-vscode",
+        "redhat.ansible",
+        "richie5um2.vscode-sort-json",
         "timonwong.shellcheck",
-        "tomoyukim.vscode-mermaid-editor"
+        "tomoyukim.vscode-mermaid-editor",
+        "zainchen.json"
       ]
     },
     "ghcr.io/robinmordasiewicz/features/tflint": {},
