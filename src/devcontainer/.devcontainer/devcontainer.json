@@ -156,7 +156,6 @@
     "ghcr.io/robinmordasiewicz/features/preinstall-extensions": {
       "extensions": [
         "alexcvzz.vscode-sqlite",
-        "amazonwebservices.aws-toolkit-vscode",
         "davidAnson.vscode-markdownlint",
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
@@ -192,8 +191,7 @@
         "redhat.ansible",
         "richie5um2.vscode-sort-json",
         "timonwong.shellcheck",
-        "tomoyukim.vscode-mermaid-editor",
-        "zainchen.json"
+        "tomoyukim.vscode-mermaid-editor"
       ]
     },
     "ghcr.io/robinmordasiewicz/features/tflint": {},
