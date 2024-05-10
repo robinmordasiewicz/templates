@@ -28,6 +28,11 @@
     }
   },
   "features": {
+    "ghcr.io/akhildevelops/devcontainer-features/pip": {
+      "packages": [
+        "ansible-creator"
+      ]
+    },
     "ghcr.io/devcontainers-community/npm-features/prettier": {},
     "ghcr.io/devcontainers-contrib/features/act": {},
     "ghcr.io/devcontainers-contrib/features/actionlint": {},
