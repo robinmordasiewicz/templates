@@ -95,7 +95,11 @@
       "nonFreePackages": "true"
     },
     "ghcr.io/devcontainers/features/docker-outside-of-docker": {},
-    "ghcr.io/devcontainers/features/dotnet": {},
+    "ghcr.io/devcontainers/features/dotnet": {
+      "aspNetCoreRuntimeVersions": "latest",
+      "dotnetRuntimeVersions": "latest",
+      "version": "latest"
+    },
     "ghcr.io/devcontainers/features/github-cli": {},
     "ghcr.io/devcontainers/features/go": {},
     "ghcr.io/devcontainers/features/node": {},
