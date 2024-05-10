@@ -89,6 +89,7 @@
       "nonFreePackages": "true"
     },
     "ghcr.io/devcontainers/features/docker-outside-of-docker": {},
+    "ghcr.io/devcontainers/features/dotnet": {},
     "ghcr.io/devcontainers/features/github-cli": {},
     "ghcr.io/devcontainers/features/go": {},
     "ghcr.io/devcontainers/features/node": {},
@@ -114,7 +115,8 @@
     "ghcr.io/robinmordasiewicz/features/azure-cli-persistence": {},
     "ghcr.io/robinmordasiewicz/features/container-dotfiles": {},
     "ghcr.io/robinmordasiewicz/features/continue": {},
-    "ghcr.io/robinmordasiewicz/features/fortidevsec:latest": {},
+    "ghcr.io/robinmordasiewicz/features/fortidevsec": {},
+    "ghcr.io/robinmordasiewicz/features/infracost": {},
     "ghcr.io/robinmordasiewicz/features/lazygit": {},
     "ghcr.io/robinmordasiewicz/features/lsd": {},
     "ghcr.io/robinmordasiewicz/features/mkdocs-environment": {},
@@ -149,7 +151,6 @@
       "extensions": [
         "alexcvzz.vscode-sqlite",
         "amazonwebservices.aws-toolkit-vscode",
-        "amazonwebservices.amazon-q-vscode",
         "davidAnson.vscode-markdownlint",
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
