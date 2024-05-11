@@ -122,6 +122,18 @@
     "ghcr.io/lukewiwa/features/shellcheck": {},
     "ghcr.io/prulloac/devcontainer-features/gitlint": {},
     "ghcr.io/prulloac/devcontainer-features/pre-commit": {},
+    "ghcr.io/robinmordasiewicz/features/ansible-galaxy": {
+      "extensions": [
+        "fortinet.console",
+        "fortinet.fortiadc",
+        "fortinet.fortianalyzer",
+        "fortinet.fortiflexvm",
+        "fortinet.fortimanager",
+        "fortinet.fortios",
+        "fortinet.fortiswitch",
+        "fortinet.fortiweb"
+      ]
+    },
     "ghcr.io/robinmordasiewicz/features/azure-cli-persistence": {},
     "ghcr.io/robinmordasiewicz/features/container-dotfiles": {},
     "ghcr.io/robinmordasiewicz/features/continue": {},
