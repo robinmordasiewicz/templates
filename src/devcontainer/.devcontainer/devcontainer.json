@@ -31,7 +31,8 @@
     "ghcr.io/akhildevelops/devcontainer-features/pip": {
       "packages": [
         "ansible-creator",
-        "ansible-dev-environment"
+        "ansible-dev-environment",
+        "oterm"
       ]
     },
     "ghcr.io/devcontainers-community/npm-features/prettier": {},
