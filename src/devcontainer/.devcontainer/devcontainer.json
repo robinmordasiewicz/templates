@@ -122,6 +122,7 @@
     "ghcr.io/jungaretti/features/make": {},
     "ghcr.io/lukewiwa/features/shellcheck": {},
     "ghcr.io/prulloac/devcontainer-features/gitlint": {},
+    "ghcr.io/prulloac/devcontainer-features/ollama": {},
     "ghcr.io/prulloac/devcontainer-features/pre-commit": {},
     "ghcr.io/robinmordasiewicz/features/ansible-galaxy": {
       "extensions": [
