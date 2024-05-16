@@ -1,7 +1,7 @@
 {
   "features": {
     "ghcr.io/devcontainers/features/nvidia-cuda": {
-      "cudaVersion": "12.2"
+      "cudaVersion": "12.4"
     },
     "ghcr.io/iterative/features/nvtop": {},
     "ghcr.io/prulloac/devcontainer-features/ollama": {},

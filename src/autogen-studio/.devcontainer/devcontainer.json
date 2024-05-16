@@ -1,0 +1,17 @@
+{
+  "features": {
+    "ghcr.io/devcontainers/features/nvidia-cuda": {
+      "cudaVersion": "12.4"
+    },
+    "ghcr.io/robinmordasiewicz/features/autogen-environment:0": {}
+  },
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu22.04",
+  "name": "autogen-studio",
+  "runArgs": [
+    "--name=autogen-studio",
+    "--hostname=autogen-studio",
+    "--gpus=all",
+    "--net=host"
+  ],
+  "shutdownAction": "none"
+}

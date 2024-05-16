@@ -1,0 +1,21 @@
+{
+  "description": "Autogen Studio",
+  "documentationURL": "https://autogen-studio.com",
+  "id": "autogen-studio",
+  "licenseURL": "https://raw.githubusercontent.com/microsoft/autogen/main/LICENSE",
+  "name": "Autogen Studio",
+  "options": {
+    "imageVariant": {
+      "default": "jammy",
+      "description": "Only Ubuntu 22.04 on amd64 is supported.",
+      "proposals": [
+        "jammy"
+      ],
+      "type": "string"
+    }
+  },
+  "platforms": [
+    "linux/amd64"
+  ],
+  "version": "0.0.1"
+}
