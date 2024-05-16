@@ -3,7 +3,9 @@
     "ghcr.io/devcontainers/features/nvidia-cuda": {
       "cudaVersion": "12.4"
     },
-    "ghcr.io/robinmordasiewicz/features/autogen-environment:0": {}
+    "ghcr.io/robinmordasiewicz/features/autogen-environment": {},
+    "ghcr.io/devcontainers/features/common-utils": {},
+    "ghcr.io/robinmordasiewicz/features/update-conda": {}
   },
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu22.04",
   "name": "autogen-studio",
