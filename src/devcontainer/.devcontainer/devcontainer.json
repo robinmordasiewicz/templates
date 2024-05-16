@@ -122,7 +122,6 @@
     "ghcr.io/jungaretti/features/make": {},
     "ghcr.io/lukewiwa/features/shellcheck": {},
     "ghcr.io/prulloac/devcontainer-features/gitlint": {},
-    "ghcr.io/prulloac/devcontainer-features/ollama": {},
     "ghcr.io/prulloac/devcontainer-features/pre-commit": {},
     "ghcr.io/robinmordasiewicz/features/ansible-galaxy": {
       "extensions": [
@@ -167,6 +166,7 @@
       ]
     },
     "ghcr.io/robinmordasiewicz/features/oh-my-posh": {},
+    "ghcr.io/robinmordasiewicz/features/ollama-client": {},
     "ghcr.io/robinmordasiewicz/features/opencommit": {},
     "ghcr.io/robinmordasiewicz/features/powershell": {
       "powershellProfileURL": "https://raw.githubusercontent.com/robinmordasiewicz/dotfiles/main/Microsoft.PowerShell_profile.ps1"
