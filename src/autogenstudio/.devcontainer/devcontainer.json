@@ -1,0 +1,18 @@
+{
+  "features": {
+    "ghcr.io/akhildevelops/devcontainer-features/pip": {
+      "packages": [
+        "autogenstudio"
+      ]
+    }
+  },
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu22.04",
+  "name": "autogenstudio",
+  "runArgs": [
+    "--name=autogenstudio",
+    "--hostname=autogenstudio",
+    "--gpus=all",
+    "--net=host"
+  ],
+  "shutdownAction": "none"
+}

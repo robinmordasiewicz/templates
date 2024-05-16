@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'src/autogen-studio/**/*.json'
+      - 'src/autogenstudio/**/*.json'
 
 concurrency:
   group: ${{ github.workflow }}
@@ -27,6 +27,6 @@ jobs:
         uses: devcontainers/ci@7957e0cf6d027a8ab027745f399fcdbd3aa74f0f
         with:
           subFolder: src/autogen-studio
-          imageName: docker.io/robinmordasiewicz/autogen-studio
-          cacheFrom: docker.io/robinmordasiewicz/autogen-studio
+          imageName: docker.io/robinmordasiewicz/autogenstudio
+          cacheFrom: docker.io/robinmordasiewicz/autogenstudio
           push: always
