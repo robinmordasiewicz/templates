@@ -3,7 +3,9 @@
     "ghcr.io/devcontainers/features/python": {},
     "ghcr.io/akhildevelops/devcontainer-features/pip": {
       "packages": [
-        "autogenstudio"
+        "autogenstudio",
+        "requests",
+        "yfinance"
       ]
     }
   },
