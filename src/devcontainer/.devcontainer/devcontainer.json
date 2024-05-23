@@ -95,7 +95,6 @@
       "configureZshAsDefaultShell": true,
       "nonFreePackages": "true"
     },
-    "ghcr.io/devcontainers/features/docker-outside-of-docker": {},
     "ghcr.io/devcontainers/features/dotnet": {
       "aspNetCoreRuntimeVersions": "latest",
       "dotnetRuntimeVersions": "latest",
