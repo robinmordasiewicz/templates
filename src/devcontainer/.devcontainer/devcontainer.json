@@ -30,12 +30,15 @@
   "features": {
     "ghcr.io/akhildevelops/devcontainer-features/pip": {
       "packages": [
+        "ansible-creator",
+        "ansible-dev-environment",
         "oterm"
       ]
     },
     "ghcr.io/devcontainers-community/npm-features/prettier": {},
     "ghcr.io/devcontainers-contrib/features/act": {},
     "ghcr.io/devcontainers-contrib/features/actionlint": {},
+    "ghcr.io/devcontainers-contrib/features/ansible": {},
     "ghcr.io/devcontainers-contrib/features/apt-packages": {
       "packages": [
         "autoconf",
@@ -92,22 +95,24 @@
       "configureZshAsDefaultShell": true,
       "nonFreePackages": "true"
     },
-    "ghcr.io/devcontainers/features/docker-outside-of-docker:1.4.5": {},
+    "ghcr.io/devcontainers/features/docker-outside-of-docker": {},
     "ghcr.io/devcontainers/features/dotnet": {
       "aspNetCoreRuntimeVersions": "latest",
       "dotnetRuntimeVersions": "latest",
       "version": "latest"
     },
     "ghcr.io/devcontainers/features/github-cli": {},
+    "ghcr.io/devcontainers/features/go": {},
     "ghcr.io/devcontainers/features/node": {},
     "ghcr.io/devcontainers/features/python": {
       "installTools": true,
-      "version": "3.11"
+      "version": "3.12"
     },
     "ghcr.io/dhoeric/features/terraformer": {},
     "ghcr.io/dhoeric/features/tfsec": {},
     "ghcr.io/dhoeric/features/trivy": {},
     "ghcr.io/guiyomh/features/vim": {},
+    "ghcr.io/hspaans/devcontainer-features/ansible-lint": {},
     "ghcr.io/hwaien/devcontainer-features/match-host-time-zone": {},
     "ghcr.io/itsmechlark/features/postgresql": {},
     "ghcr.io/joshuanianji/devcontainer-features/aws-cli-persistence": {},
@@ -118,6 +123,18 @@
     "ghcr.io/lukewiwa/features/shellcheck": {},
     "ghcr.io/prulloac/devcontainer-features/gitlint": {},
     "ghcr.io/prulloac/devcontainer-features/pre-commit": {},
+    "ghcr.io/robinmordasiewicz/features/ansible-galaxy": {
+      "extensions": [
+        "fortinet.console",
+        "fortinet.fortiadc",
+        "fortinet.fortianalyzer",
+        "fortinet.fortiflexvm",
+        "fortinet.fortimanager",
+        "fortinet.fortios",
+        "fortinet.fortiswitch",
+        "fortinet.fortiweb"
+      ]
+    },
     "ghcr.io/robinmordasiewicz/features/azure-cli-persistence": {},
     "ghcr.io/robinmordasiewicz/features/container-dotfiles": {},
     "ghcr.io/robinmordasiewicz/features/continue": {},
