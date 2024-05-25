@@ -35,6 +35,7 @@
         "oterm"
       ]
     },
+    "ghcr.io/audacioustux/devcontainers/k9s": {},
     "ghcr.io/devcontainers-community/npm-features/prettier": {},
     "ghcr.io/devcontainers-contrib/features/act": {},
     "ghcr.io/devcontainers-contrib/features/actionlint": {},
