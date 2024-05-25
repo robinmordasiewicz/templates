@@ -104,7 +104,7 @@
     "ghcr.io/devcontainers/features/github-cli": {},
     "ghcr.io/devcontainers/features/go": {},
     "ghcr.io/robinmordasiewicz/devcontainers.features/kubectl-helm-minikube": {
-      "path": "/usr/bin"
+      "tools_path": "/usr/bin"
     },
     "ghcr.io/devcontainers/features/node": {},
     "ghcr.io/devcontainers/features/python": {
