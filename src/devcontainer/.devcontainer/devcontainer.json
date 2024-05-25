@@ -144,6 +144,7 @@
     "ghcr.io/robinmordasiewicz/features/continue": {},
     "ghcr.io/robinmordasiewicz/features/fortidevsec": {},
     "ghcr.io/robinmordasiewicz/features/infracost": {},
+    "ghcr.io/robinmordasiewicz/features/krew": {},
     "ghcr.io/robinmordasiewicz/features/lazygit": {},
     "ghcr.io/robinmordasiewicz/features/lsd": {},
     "ghcr.io/robinmordasiewicz/features/mkdocs-environment": {},
