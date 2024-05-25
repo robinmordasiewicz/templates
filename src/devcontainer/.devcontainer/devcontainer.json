@@ -124,6 +124,9 @@
     "ghcr.io/lukewiwa/features/shellcheck": {},
     "ghcr.io/prulloac/devcontainer-features/gitlint": {},
     "ghcr.io/prulloac/devcontainer-features/pre-commit": {},
+    "ghcr.io/robinmordasiewicz/devcontainers.features/kubectl-helm-minikube": {
+      "tools_path": "/usr/bin"
+    },
     "ghcr.io/robinmordasiewicz/features/ansible-galaxy": {
       "extensions": [
         "fortinet.console",
@@ -142,9 +145,6 @@
     "ghcr.io/robinmordasiewicz/features/fortidevsec": {},
     "ghcr.io/robinmordasiewicz/features/infracost": {},
     "ghcr.io/robinmordasiewicz/features/krew": {},
-    "ghcr.io/robinmordasiewicz/features/kubectl-helm-minikube": {
-      "tools_path": "/usr/bin"
-    },
     "ghcr.io/robinmordasiewicz/features/lazygit": {},
     "ghcr.io/robinmordasiewicz/features/lsd": {},
     "ghcr.io/robinmordasiewicz/features/mkdocs-environment": {},
