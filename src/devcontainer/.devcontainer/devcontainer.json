@@ -104,9 +104,6 @@
     },
     "ghcr.io/devcontainers/features/github-cli": {},
     "ghcr.io/devcontainers/features/go": {},
-    "ghcr.io/robinmordasiewicz/devcontainers.features/kubectl-helm-minikube": {
-      "tools_path": "/usr/bin"
-    },
     "ghcr.io/devcontainers/features/node": {},
     "ghcr.io/devcontainers/features/python": {
       "installTools": true,
@@ -145,6 +142,9 @@
     "ghcr.io/robinmordasiewicz/features/fortidevsec": {},
     "ghcr.io/robinmordasiewicz/features/infracost": {},
     "ghcr.io/robinmordasiewicz/features/krew": {},
+    "ghcr.io/robinmordasiewicz/features/kubectl-helm-minikube": {
+      "tools_path": "/usr/bin"
+    },
     "ghcr.io/robinmordasiewicz/features/lazygit": {},
     "ghcr.io/robinmordasiewicz/features/lsd": {},
     "ghcr.io/robinmordasiewicz/features/mkdocs-environment": {},
