@@ -42,7 +42,9 @@ jobs:
       - name: build base image
         timeout-minutes: 1440
         if: steps.filter.outputs.baseimage == 'true'
-        run: cd src/devcontainer && devcontainer build --workspace-folder . --platform linux/arm64,linux/amd64 --image-name docker.io/robinmordasiewicz/devcontainer:latest --output type=docker
+        run: |
+          cd src/devcontainer && devcontainer build --workspace-folder . --platform linux/arm64,linux/amd64 --image-name docker.io/robinmordasiewicz/devcontainer:latest --output type=docker
+          cd src/devcontainer && devcontainer build --workspace-folder . --platform linux/arm64,linux/amd64 --image-name docker.io/robinmordasiewicz/devcontainer:`date +"%Y%m%d%H%M"` --output type=docker
 
       - name: docker push
         if: steps.filter.outputs.baseimage == 'true'
