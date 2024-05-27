@@ -103,7 +103,6 @@
       "version": "latest"
     },
     "ghcr.io/devcontainers/features/github-cli": {},
-    "ghcr.io/devcontainers/features/go": {},
     "ghcr.io/devcontainers/features/node": {},
     "ghcr.io/devcontainers/features/python": {
       "installTools": true,
