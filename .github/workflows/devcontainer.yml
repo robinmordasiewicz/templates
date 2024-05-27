@@ -39,11 +39,16 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - name: build base image
+      - name: build base image - latest
         timeout-minutes: 1440
         if: steps.filter.outputs.baseimage == 'true'
         run: |
           cd src/devcontainer && devcontainer build --workspace-folder . --platform linux/arm64,linux/amd64 --image-name docker.io/robinmordasiewicz/devcontainer:latest --output type=docker
+
+      - name: build base image - version
+        timeout-minutes: 1440
+        if: steps.filter.outputs.baseimage == 'true'
+        run: |
           cd src/devcontainer && devcontainer build --workspace-folder . --platform linux/arm64,linux/amd64 --image-name docker.io/robinmordasiewicz/devcontainer:`date +"%Y%m%d%H%M"` --output type=docker
 
       - name: docker push
