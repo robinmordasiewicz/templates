@@ -73,10 +73,10 @@
     "ghcr.io/devcontainers-contrib/features/mkdocs": {
       "plugins": "mkdocs-material mkdocs-awesome-pages-plugin mkdocs-git-authors-plugin mkdocs-git-committers-plugin-2 mkdocs-git-revision-date-localized-plugin mkdocs-glightbox mkdocs-material[imaging] mkdocs-minify-plugin mkdocs-monorepo-plugin mkdocs-pdf-export-plugin mkdocs-same-dir mkdocstrings[crystal,python] mkdocs-with-pdf pymdown-extensions mkdocs-table-reader-plugin"
     },
-    "ghcr.io/devcontainers-contrib/features/opa:1": {},
+    "ghcr.io/devcontainers-contrib/features/opa": {},
     "ghcr.io/devcontainers-contrib/features/poppler-utils-apt-get": {},
-    "ghcr.io/devcontainers-contrib/features/pylint:2": {},
-    "ghcr.io/devcontainers-contrib/features/qrcode:2": {},
+    "ghcr.io/devcontainers-contrib/features/pylint": {},
+    "ghcr.io/devcontainers-contrib/features/qrcode": {},
     "ghcr.io/devcontainers-contrib/features/shfmt": {},
     "ghcr.io/devcontainers-contrib/features/terraform-docs": {},
     "ghcr.io/devcontainers-contrib/features/terrascan": {},
@@ -84,8 +84,8 @@
     "ghcr.io/devcontainers-contrib/features/vscode-cli": {},
     "ghcr.io/devcontainers-contrib/features/vscode-server": {},
     "ghcr.io/devcontainers-contrib/features/wget-apt-get": {},
-    "ghcr.io/devcontainers-contrib/features/yamllint:2": {},
-    "ghcr.io/devcontainers-contrib/features/yt-dlp:2": {},
+    "ghcr.io/devcontainers-contrib/features/yamllint": {},
+    "ghcr.io/devcontainers-contrib/features/yt-dlp": {},
     "ghcr.io/devcontainers-contrib/features/zsh-plugins": {
       "omzPlugins": "https://github.com/zsh-users/zsh-autosuggestions.git https://github.com/zsh-users/zsh-syntax-highlighting.git https://github.com/conda-incubator/conda-zsh-completion.git https://github.com/z-shell/zsh-eza.git https://github.com/cda0/zsh-tfenv.git https://github.com/yuhonas/zsh-aliases-lsd.git",
       "plugins": "zsh-syntax-highlighting zsh-autosuggestions ubuntu jsontools gh common-aliases zsh-aliases-lsd zsh-tfenv conda-zsh-completion z pip terraform"
@@ -238,7 +238,6 @@
   "name": "devcontainer",
   "onCreateCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
   "runArgs": [
-    "--name=devcontainer",
     "--hostname=devcontainer"
   ]
 }
