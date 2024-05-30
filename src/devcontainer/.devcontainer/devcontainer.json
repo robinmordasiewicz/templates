@@ -70,6 +70,9 @@
     "ghcr.io/devcontainers-contrib/features/fzf": {},
     "ghcr.io/devcontainers-contrib/features/infracost": {},
     "ghcr.io/devcontainers-contrib/features/markdownlint-cli2": {},
+    "ghcr.io/devcontainers-contrib/features/mkdocs": {
+      "plugins": "mkdocs-material mkdocs-awesome-pages-plugin mkdocs-git-authors-plugin mkdocs-git-committers-plugin-2 mkdocs-git-revision-date-localized-plugin mkdocs-glightbox mkdocs-material[imaging] mkdocs-minify-plugin mkdocs-monorepo-plugin mkdocs-pdf-export-plugin mkdocs-same-dir mkdocstrings[crystal,python] mkdocs-with-pdf pymdown-extensions"
+    },
     "ghcr.io/devcontainers-contrib/features/opa:1": {},
     "ghcr.io/devcontainers-contrib/features/poppler-utils-apt-get": {},
     "ghcr.io/devcontainers-contrib/features/pylint:2": {},
@@ -103,6 +106,7 @@
       "version": "latest"
     },
     "ghcr.io/devcontainers/features/github-cli": {},
+    "ghcr.io/devcontainers/features/hugo": {},
     "ghcr.io/devcontainers/features/node": {},
     "ghcr.io/devcontainers/features/python": {
       "installTools": true,
@@ -146,7 +150,6 @@
     "ghcr.io/robinmordasiewicz/features/krew": {},
     "ghcr.io/robinmordasiewicz/features/lazygit": {},
     "ghcr.io/robinmordasiewicz/features/lsd": {},
-    "ghcr.io/robinmordasiewicz/features/mkdocs-environment": {},
     "ghcr.io/robinmordasiewicz/features/nerd-fonts": {},
     "ghcr.io/robinmordasiewicz/features/npm-globals": {
       "extensions": [
