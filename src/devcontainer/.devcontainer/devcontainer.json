@@ -30,6 +30,24 @@
   "features": {
     "ghcr.io/akhildevelops/devcontainer-features/pip": {
       "packages": [
+        "mkdocs-material",
+        "mkdocs-awesome-pages-plugin",
+        "mkdocs-git-authors-plugin",
+        "mkdocs-git-committers-plugin-2",
+        "mkdocs-git-revision-date-localized-plugin",
+        "mkdocs-glightbox",
+        "mkdocs-material[imaging]",
+        "mkdocs-minify-plugin",
+        "mkdocs-monorepo-plugin",
+        "mkdocs-pdf-export-plugin",
+        "mkdocs-same-dir",
+        "mkdocstrings[python]",
+        "mkdocstrings[crystal]",
+        "mkdocs-with-pdf",
+        "pymdown-extensions",
+        "mkdocs-table-reader-plugin",
+        "mkdocs-childpages-card-grid-plugin",
+        "mkdocs-add-teaser",
         "ansible",
         "ansible-creator",
         "ansible-dev-environment",
@@ -70,9 +88,6 @@
     "ghcr.io/devcontainers-contrib/features/fzf": {},
     "ghcr.io/devcontainers-contrib/features/infracost": {},
     "ghcr.io/devcontainers-contrib/features/markdownlint-cli2": {},
-    "ghcr.io/devcontainers-contrib/features/mkdocs": {
-      "plugins": "mkdocs-material mkdocs-awesome-pages-plugin mkdocs-git-authors-plugin mkdocs-git-committers-plugin-2 mkdocs-git-revision-date-localized-plugin mkdocs-glightbox mkdocs-material[imaging] mkdocs-minify-plugin mkdocs-monorepo-plugin mkdocs-pdf-export-plugin mkdocs-same-dir mkdocstrings[crystal,python] mkdocs-with-pdf pymdown-extensions mkdocs-table-reader-plugin"
-    },
     "ghcr.io/devcontainers-contrib/features/opa": {},
     "ghcr.io/devcontainers-contrib/features/poppler-utils-apt-get": {},
     "ghcr.io/devcontainers-contrib/features/pylint": {},
