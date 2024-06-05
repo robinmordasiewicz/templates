@@ -30,6 +30,7 @@
   "features": {
     "ghcr.io/akhildevelops/devcontainer-features/pip": {
       "packages": [
+        "ansible",
         "ansible-creator",
         "ansible-dev-environment",
         "oterm"
@@ -39,7 +40,6 @@
     "ghcr.io/devcontainers-community/npm-features/prettier": {},
     "ghcr.io/devcontainers-contrib/features/act": {},
     "ghcr.io/devcontainers-contrib/features/actionlint": {},
-    "ghcr.io/devcontainers-contrib/features/ansible": {},
     "ghcr.io/devcontainers-contrib/features/apt-packages": {
       "packages": [
         "autoconf",
