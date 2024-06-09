@@ -2,6 +2,8 @@
 name: Build and Push devcontainers
 
 on:
+  repository_dispatch:
+    types: [features]
   push:
     paths:
       - 'src/devcontainer/**/*.json'
