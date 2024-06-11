@@ -79,6 +79,7 @@
         "yelp-tools"
       ]
     },
+    "ghcr.io/devcontainers-contrib/features/argo-cd": {},
     "ghcr.io/devcontainers-contrib/features/aztfexport": {},
     "ghcr.io/devcontainers-contrib/features/black": {},
     "ghcr.io/devcontainers-contrib/features/checkov": {},
@@ -193,6 +194,9 @@
     "ghcr.io/robinmordasiewicz/features/powershell": {
       "powershellProfileURL": "https://raw.githubusercontent.com/robinmordasiewicz/dotfiles/main/Microsoft.PowerShell_profile.ps1"
     },
+    "ghcr.io/robinmordasiewicz/features/tflint": {},
+    "ghcr.io/robinmordasiewicz/features/update-conda": {},
+    "ghcr.io/robinmordasiewicz/features/vimrc": {},
     "ghcr.io/robinmordasiewicz/features/zzz-preinstall-extensions": {
       "extensions": [
         "alexcvzz.vscode-sqlite",
@@ -241,9 +245,6 @@
         "tomoyukim.vscode-mermaid-editor"
       ]
     },
-    "ghcr.io/robinmordasiewicz/features/tflint": {},
-    "ghcr.io/robinmordasiewicz/features/update-conda": {},
-    "ghcr.io/robinmordasiewicz/features/vimrc": {},
     "ghcr.io/rocker-org/devcontainer-features/miniforge": {},
     "ghcr.io/stuartleeks/dev-container-features/shell-history": {},
     "ghcr.io/warrenbuckley/codespace-features/sqlite": {}
