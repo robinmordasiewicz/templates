@@ -89,7 +89,6 @@
     "ghcr.io/devcontainers-contrib/features/fzf": {},
     "ghcr.io/devcontainers-contrib/features/infracost": {},
     "ghcr.io/devcontainers-contrib/features/istioctl": {},
-    "ghcr.io/devcontainers-contrib/features/kind": {},
     "ghcr.io/devcontainers-contrib/features/kubectx-kubens": {},
     "ghcr.io/devcontainers-contrib/features/markdownlint-cli2": {},
     "ghcr.io/devcontainers-contrib/features/opa": {},
@@ -107,7 +106,7 @@
     "ghcr.io/devcontainers-contrib/features/yt-dlp": {},
     "ghcr.io/devcontainers-contrib/features/zsh-plugins": {
       "omzPlugins": "https://github.com/zsh-users/zsh-autosuggestions.git https://github.com/zsh-users/zsh-syntax-highlighting.git https://github.com/conda-incubator/conda-zsh-completion.git https://github.com/z-shell/zsh-eza.git https://github.com/cda0/zsh-tfenv.git https://github.com/yuhonas/zsh-aliases-lsd.git",
-      "plugins": "zsh-syntax-highlighting zsh-autosuggestions zsh-interactive-cd ubuntu jsontools gh common-aliases zsh-aliases-lsd zsh-tfenv conda-zsh-completion z pip terraform fluxcd azure git-auto-fetch helm istioctl iterm2 kind kube-ps1 kubectl sudo vscode"
+      "plugins": "zsh-syntax-highlighting zsh-autosuggestions zsh-interactive-cd ubuntu jsontools gh common-aliases zsh-aliases-lsd zsh-tfenv conda-zsh-completion z pip terraform fluxcd azure git-auto-fetch helm istioctl iterm2 kube-ps1 kubectl sudo vscode"
     },
     "ghcr.io/devcontainers/features/aws-cli": {},
     "ghcr.io/devcontainers/features/azure-cli": {
