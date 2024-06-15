@@ -1,0 +1,68 @@
+---
+name: Build and Push devcontainers
+
+on:
+  repository_dispatch:
+    types: [features]
+  push:
+    paths:
+      - 'src/devcontainer/**/*.json'
+      - 'src/llm-prompt/**/*.json'
+      - 'src/devops-toolkit/**/*.json'
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+jobs:
+  build-and-push:
+    timeout-minutes: 1440
+    runs-on: self-hosted
+    steps:
+      - name: Checkout
+        id: checkout
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
+
+      - uses: dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36
+        id: filter
+        with:
+          filters: |
+            baseimage:
+              - 'src/devcontainer/**/*.json'
+            llm-prompt:
+              - 'src/llm-prompt/**/*.json'
+            devops-toolkit:
+              - 'src/devops-toolkit/**/*.json'
+
+      - name: Login to Docker Hub
+        if: steps.filter.outputs.llm-prompt == 'true' || steps.filter.outputs.baseimage == 'true' || steps.filter.outputs.devops-toolkit == 'true'
+        uses: docker/login-action@e92390c5fb421da1463c202d546fed0ec5c39f20
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: build base image - latest
+        timeout-minutes: 1440
+        if: steps.filter.outputs.baseimage == 'true'
+        run: |
+          cd src/devcontainer && devcontainer build --workspace-folder . --platform linux/arm64,linux/amd64 --image-name docker.io/robinmordasiewicz/devcontainer:latest --output type=docker
+
+      - name: docker push
+        if: steps.filter.outputs.baseimage == 'true'
+        run: docker push docker.io/robinmordasiewicz/devcontainer:latest
+
+      - name: build llm-prompt
+        if: steps.filter.outputs.llm-prompt == 'true' || steps.filter.outputs.baseimage == 'true'
+        run: cd src/llm-prompt && devcontainer build --workspace-folder . --platform linux/amd64 --image-name docker.io/robinmordasiewicz/llm-prompt:latest --output type=docker
+
+      - name: docker push
+        if: steps.filter.outputs.llm-prompt == 'true' || steps.filter.outputs.baseimage == 'true'
+        run: docker push docker.io/robinmordasiewicz/llm-prompt:latest
+
+      - name: build devops-toolkit
+        if: steps.filter.outputs.devops-toolkit == 'true' || steps.filter.outputs.baseimage == 'true'
+        run: cd src/devops-toolkit && devcontainer build --workspace-folder . --platform linux/amd64,linux/arm64 --image-name docker.io/robinmordasiewicz/devops-toolkit:latest --output type=docker
+
+      - name: docker push
+        if: steps.filter.outputs.devops-toolkit == 'true' || steps.filter.outputs.baseimage == 'true'
+        run: docker push docker.io/robinmordasiewicz/devops-toolkit:latest
