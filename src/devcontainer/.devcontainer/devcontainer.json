@@ -90,7 +90,6 @@
     "ghcr.io/devcontainers-contrib/features/infracost": {},
     "ghcr.io/devcontainers-contrib/features/istioctl": {},
     "ghcr.io/devcontainers-contrib/features/markdownlint-cli2": {},
-    "ghcr.io/devcontainers-contrib/features/opa": {},
     "ghcr.io/devcontainers-contrib/features/poppler-utils-apt-get": {},
     "ghcr.io/devcontainers-contrib/features/pylint": {},
     "ghcr.io/devcontainers-contrib/features/qrcode": {},
