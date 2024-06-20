@@ -87,7 +87,6 @@
     "ghcr.io/devcontainers-contrib/features/devcontainers-cli": {},
     "ghcr.io/devcontainers-contrib/features/ffmpeg-apt-get": {},
     "ghcr.io/devcontainers-contrib/features/fzf": {},
-    "ghcr.io/devcontainers-contrib/features/git-lfs": {},
     "ghcr.io/devcontainers-contrib/features/infracost": {},
     "ghcr.io/devcontainers-contrib/features/istioctl": {},
     "ghcr.io/devcontainers-contrib/features/markdownlint-cli2": {},
@@ -122,6 +121,7 @@
       "dotnetRuntimeVersions": "latest",
       "version": "latest"
     },
+    "ghcr.io/devcontainers/features/git-lfs": {},
     "ghcr.io/devcontainers/features/github-cli": {},
     "ghcr.io/devcontainers/features/hugo": {},
     "ghcr.io/devcontainers/features/node": {},
