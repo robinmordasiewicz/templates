@@ -125,6 +125,9 @@
     "ghcr.io/devcontainers/features/github-cli": {},
     "ghcr.io/devcontainers/features/hugo": {},
     "ghcr.io/devcontainers/features/node": {},
+    "ghcr.io/devcontainers/features/powershell": {
+      "powershellProfileURL": "https://raw.githubusercontent.com/robinmordasiewicz/dotfiles/main/Microsoft.PowerShell_profile.ps1"
+    },
     "ghcr.io/devcontainers/features/python": {
       "installTools": true,
       "version": "3.12"
@@ -194,9 +197,6 @@
     "ghcr.io/robinmordasiewicz/features/oh-my-posh": {},
     "ghcr.io/robinmordasiewicz/features/ollama-client": {},
     "ghcr.io/robinmordasiewicz/features/opencommit": {},
-    "ghcr.io/robinmordasiewicz/features/powershell": {
-      "powershellProfileURL": "https://raw.githubusercontent.com/robinmordasiewicz/dotfiles/main/Microsoft.PowerShell_profile.ps1"
-    },
     "ghcr.io/robinmordasiewicz/features/tflint": {},
     "ghcr.io/robinmordasiewicz/features/update-conda": {},
     "ghcr.io/robinmordasiewicz/features/vimrc": {},
