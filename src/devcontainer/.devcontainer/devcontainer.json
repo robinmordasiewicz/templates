@@ -218,6 +218,7 @@
         "ms-azuretools.vscode-azurefunctions",
         "ms-azuretools.vscode-azureresourcegroups",
         "ms-azuretools.vscode-azurestorage",
+        "ms-azuretools.vscode-azureterraform",
         "ms-azuretools.vscode-azurevirtualmachines",
         "ms-azuretools.vscode-bicep",
         "ms-azuretools.vscode-cosmosdb",
