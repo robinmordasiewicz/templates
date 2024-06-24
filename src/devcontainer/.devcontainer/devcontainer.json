@@ -138,7 +138,9 @@
     "ghcr.io/dhoeric/features/terraformer": {},
     "ghcr.io/dhoeric/features/tfsec": {},
     "ghcr.io/dhoeric/features/trivy": {},
-    "ghcr.io/goldsam/dev-container-features/flux2": {},
+    "ghcr.io/goldsam/dev-container-features/flux2": {
+      "version": "2.1.2"
+    },
     "ghcr.io/guiyomh/features/vim": {},
     "ghcr.io/hspaans/devcontainer-features/ansible-lint": {},
     "ghcr.io/hwaien/devcontainer-features/match-host-time-zone": {},
