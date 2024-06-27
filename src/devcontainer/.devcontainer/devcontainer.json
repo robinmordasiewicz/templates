@@ -138,6 +138,12 @@
     "ghcr.io/dhoeric/features/terraformer": {},
     "ghcr.io/dhoeric/features/tfsec": {},
     "ghcr.io/dhoeric/features/trivy": {},
+    "ghcr.io/eitsupi/devcontainer-features/jq-likes": {
+      "gojqVersion": "latest",
+      "jqVersion": "latest",
+      "xqVersion": "latest",
+      "yqVersion": "latest"
+    },
     "ghcr.io/goldsam/dev-container-features/flux2": {
       "version": "2.1.2"
     },
