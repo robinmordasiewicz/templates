@@ -138,12 +138,6 @@
     "ghcr.io/dhoeric/features/terraformer": {},
     "ghcr.io/dhoeric/features/tfsec": {},
     "ghcr.io/dhoeric/features/trivy": {},
-    "ghcr.io/eitsupi/devcontainer-features/jq-likes": {
-      "gojqVersion": "latest",
-      "jqVersion": "latest",
-      "xqVersion": "latest",
-      "yqVersion": "latest"
-    },
     "ghcr.io/goldsam/dev-container-features/flux2": {
       "version": "2.1.2"
     },
@@ -211,6 +205,7 @@
     "ghcr.io/robinmordasiewicz/features/tflint": {},
     "ghcr.io/robinmordasiewicz/features/update-conda": {},
     "ghcr.io/robinmordasiewicz/features/vimrc": {},
+    "ghcr.io/robinmordasiewicz/features/yq": {},
     "ghcr.io/robinmordasiewicz/features/zzz-preinstall-extensions": {
       "extensions": [
         "alexcvzz.vscode-sqlite",
