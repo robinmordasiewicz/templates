@@ -216,6 +216,7 @@
         "github.vscode-github-actions",
         "github.vscode-pull-request-github",
         "hashicorp.terraform",
+        "hnw.vscode-auto-open-markdown-preview",
         "mhutchie.git-graph",
         "ms-azuretools.vscode-azureappservice",
         "ms-azuretools.vscode-azurefunctions",
@@ -252,7 +253,8 @@
         "redhat.vscode-yaml",
         "richie5um2.vscode-sort-json",
         "timonwong.shellcheck",
-        "tomoyukim.vscode-mermaid-editor"
+        "tomoyukim.vscode-mermaid-editor",
+        "yzhang.markdown-all-in-one"
       ]
     },
     "ghcr.io/rocker-org/devcontainer-features/miniforge": {},
