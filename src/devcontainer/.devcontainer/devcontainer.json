@@ -215,8 +215,11 @@
         "esbenp.prettier-vscode",
         "github.vscode-github-actions",
         "github.vscode-pull-request-github",
+        "grapecity.gc-excelviewer",
         "hashicorp.terraform",
+        "hediet.vscode-drawio",
         "hnw.vscode-auto-open-markdown-preview",
+        "jeff-hykin.polacode-2019",
         "mhutchie.git-graph",
         "ms-azuretools.vscode-azureappservice",
         "ms-azuretools.vscode-azurefunctions",
@@ -252,8 +255,10 @@
         "redhat.ansible",
         "redhat.vscode-yaml",
         "richie5um2.vscode-sort-json",
+        "streetsidesoftware.code-spell-checker",
         "timonwong.shellcheck",
         "tomoyukim.vscode-mermaid-editor",
+        "vsls-contrib.codetour",
         "yzhang.markdown-all-in-one"
       ]
     },
