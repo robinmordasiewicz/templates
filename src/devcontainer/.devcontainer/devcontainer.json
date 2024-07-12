@@ -30,6 +30,7 @@
   "features": {
     "ghcr.io/akhildevelops/devcontainer-features/pip": {
       "packages": [
+        "azure-cognitiveservices-speech",
         "mkdocs-material",
         "mkdocs-awesome-pages-plugin",
         "mkdocs-git-authors-plugin",
@@ -66,6 +67,11 @@
         "dnsutils",
         "dos2unix",
         "file",
+        "libgstreamer1.0-0",
+        "gstreamer1.0-plugins-base",
+        "gstreamer1.0-plugins-good",
+        "gstreamer1.0-plugins-bad",
+        "gstreamer1.0-plugins-ugly",
         "iputils-ping",
         "libgif-dev",
         "libpoppler-cpp-dev",
