@@ -135,6 +135,7 @@
     "ghcr.io/devcontainers/features/github-cli": {},
     "ghcr.io/devcontainers/features/hugo": {},
     "ghcr.io/devcontainers/features/node": {},
+    "ghcr.io/devcontainers/features/nvidia-cuda": {},
     "ghcr.io/devcontainers/features/powershell": {
       "powershellProfileURL": "https://raw.githubusercontent.com/robinmordasiewicz/dotfiles/main/Microsoft.PowerShell_profile.ps1",
       "version": "7.4.2"
@@ -272,6 +273,9 @@
     "ghcr.io/rocker-org/devcontainer-features/miniforge": {},
     "ghcr.io/stuartleeks/dev-container-features/shell-history": {},
     "ghcr.io/warrenbuckley/codespace-features/sqlite": {}
+  },
+  "hostRequirements": {
+    "gpu": "optional"
   },
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu22.04",
   "initializeCommand": "docker pull mcr.microsoft.com/devcontainers/base:ubuntu22.04",
