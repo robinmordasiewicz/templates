@@ -136,7 +136,7 @@
     "ghcr.io/devcontainers/features/hugo": {},
     "ghcr.io/devcontainers/features/node": {},
     "ghcr.io/devcontainers/features/nvidia-cuda": {
-      "version": "12.5.1"
+      "cudaVersion": "12.5.1"
     },
     "ghcr.io/devcontainers/features/powershell": {
       "powershellProfileURL": "https://raw.githubusercontent.com/robinmordasiewicz/dotfiles/main/Microsoft.PowerShell_profile.ps1",
