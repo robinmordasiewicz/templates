@@ -135,9 +135,6 @@
     "ghcr.io/devcontainers/features/github-cli": {},
     "ghcr.io/devcontainers/features/hugo": {},
     "ghcr.io/devcontainers/features/node": {},
-    "ghcr.io/devcontainers/features/nvidia-cuda": {
-      "cudaVersion": "12.4"
-    },
     "ghcr.io/devcontainers/features/powershell": {
       "powershellProfileURL": "https://raw.githubusercontent.com/robinmordasiewicz/dotfiles/main/Microsoft.PowerShell_profile.ps1",
       "version": "7.4.2"
@@ -211,6 +208,9 @@
         "vscode-json-languageserver-bin",
         "yaml-language-server"
       ]
+    },
+    "ghcr.io/robinmordasiewicz/features/nvidia-cuda": {
+      "installToolkit": true
     },
     "ghcr.io/robinmordasiewicz/features/oh-my-posh": {},
     "ghcr.io/robinmordasiewicz/features/opencommit": {},
