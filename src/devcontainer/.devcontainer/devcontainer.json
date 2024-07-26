@@ -214,6 +214,7 @@
     },
     "ghcr.io/robinmordasiewicz/features/oh-my-posh": {},
     "ghcr.io/robinmordasiewicz/features/opencommit": {},
+    "ghcr.io/robinmordasiewicz/features/speedtest": {},
     "ghcr.io/robinmordasiewicz/features/tflint": {},
     "ghcr.io/robinmordasiewicz/features/update-conda": {},
     "ghcr.io/robinmordasiewicz/features/vimrc": {},
