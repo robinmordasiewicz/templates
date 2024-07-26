@@ -19,7 +19,7 @@ jobs:
       pull-requests: write
     if: "github.ref == 'refs/heads/main'"
     steps:
-      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
+      - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332
 
       - name: Generate Documentation
         uses: devcontainers/action@528049dce833673f136ddfc09c2720d450029a6b
