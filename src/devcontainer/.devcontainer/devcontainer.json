@@ -155,7 +155,7 @@
     "ghcr.io/joshuanianji/devcontainer-features/github-cli-persistence": {},
     "ghcr.io/joshuanianji/devcontainer-features/terraform-cli-persistence": {},
     "ghcr.io/jsburckhardt/devcontainer-features/flux": {
-      "version": "2.1.2"
+      "version": "v2.1.2"
     },
     "ghcr.io/jsburckhardt/devcontainer-features/gitleaks": {},
     "ghcr.io/jungaretti/features/make": {},
