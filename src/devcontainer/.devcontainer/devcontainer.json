@@ -272,6 +272,7 @@
         "streetsidesoftware.code-spell-checker",
         "timonwong.shellcheck",
         "tomoyukim.vscode-mermaid-editor",
+        "weaveworks.vscode-gitops-tools",
         "vsls-contrib.codetour",
         "yzhang.markdown-all-in-one"
       ]
