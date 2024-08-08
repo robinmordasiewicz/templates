@@ -233,6 +233,7 @@
         "hashicorp.terraform",
         "hediet.vscode-drawio",
         "jeff-hykin.polacode-2019",
+        "lacework-security.lacework-code-security",
         "mhutchie.git-graph",
         "ms-azuretools.vscode-azureappservice",
         "ms-azuretools.vscode-azurefunctions",
