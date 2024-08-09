@@ -114,7 +114,7 @@
     "ghcr.io/devcontainers-contrib/features/yt-dlp": {},
     "ghcr.io/devcontainers-contrib/features/zsh-plugins": {
       "omzPlugins": "https://github.com/zsh-users/zsh-autosuggestions.git https://github.com/zsh-users/zsh-syntax-highlighting.git https://github.com/conda-incubator/conda-zsh-completion.git https://github.com/z-shell/zsh-eza.git https://github.com/cda0/zsh-tfenv.git https://github.com/yuhonas/zsh-aliases-lsd.git",
-      "plugins": "zsh-syntax-highlighting zsh-autosuggestions zsh-interactive-cd ubuntu jsontools gh common-aliases zsh-aliases-lsd zsh-tfenv conda-zsh-completion z pip terraform fluxcd azure git-auto-fetch helm istioctl iterm2 kube-ps1 kubectl sudo vscode"
+      "plugins": "zsh-syntax-highlighting zsh-autosuggestions zsh-interactive-cd ubuntu jsontools gh common-aliases zsh-aliases-lsd zsh-tfenv conda-zsh-completion z pip terraform fluxcd azure git-auto-fetch helm istioctl iterm2 kube-ps1 kubectl sudo vscode aws fzf"
     },
     "ghcr.io/devcontainers/features/aws-cli": {},
     "ghcr.io/devcontainers/features/azure-cli": {
@@ -210,8 +210,8 @@
       ]
     },
     "ghcr.io/robinmordasiewicz/features/nvidia-cuda": {
-      "installToolkit": true,
-      "driverVersion": "550"
+      "driverVersion": "550",
+      "installToolkit": true
     },
     "ghcr.io/robinmordasiewicz/features/oh-my-posh": {},
     "ghcr.io/robinmordasiewicz/features/opencommit": {},
