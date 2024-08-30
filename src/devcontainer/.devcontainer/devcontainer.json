@@ -105,7 +105,9 @@
     "ghcr.io/devcontainers-contrib/features/qrcode": {},
     "ghcr.io/devcontainers-contrib/features/shfmt": {},
     "ghcr.io/devcontainers-contrib/features/terraform-docs": {},
-    "ghcr.io/devcontainers-contrib/features/terrascan": {},
+    "ghcr.io/devcontainers-contrib/features/terrascan": {
+      "version": "1.19.1"
+    },
     "ghcr.io/devcontainers-contrib/features/tmux-apt-get": {},
     "ghcr.io/devcontainers-contrib/features/vscode-cli": {},
     "ghcr.io/devcontainers-contrib/features/vscode-server": {},
@@ -152,6 +154,7 @@
     "ghcr.io/iterative/features/nvtop": {},
     "ghcr.io/itsmechlark/features/postgresql": {},
     "ghcr.io/joshuanianji/devcontainer-features/aws-cli-persistence": {},
+    "ghcr.io/joshuanianji/devcontainer-features/gcloud-cli-persistence": {},
     "ghcr.io/joshuanianji/devcontainer-features/github-cli-persistence": {},
     "ghcr.io/joshuanianji/devcontainer-features/terraform-cli-persistence": {},
     "ghcr.io/jsburckhardt/devcontainer-features/flux": {
@@ -164,7 +167,7 @@
     "ghcr.io/prulloac/devcontainer-features/ollama": {},
     "ghcr.io/prulloac/devcontainer-features/pre-commit": {},
     "ghcr.io/rio/features/kustomize": {},
-    "ghcr.io/robinmordasiewicz/devcontainers.features/kubectl-helm-minikube": {
+    "ghcr.io/robinmordasiewicz/features/kubectl-helm-minikube": {
       "tools_path": "/usr/bin"
     },
     "ghcr.io/robinmordasiewicz/features/ansible-galaxy": {
