@@ -69,6 +69,7 @@
         "file",
         "graphviz",
         "libgstreamer1.0-0",
+        "libnotify4",
         "gstreamer1.0-plugins-base",
         "gstreamer1.0-plugins-good",
         "gstreamer1.0-plugins-bad",
@@ -85,7 +86,8 @@
         "tesseract-ocr",
         "tofrodos",
         "ubuntu-drivers-common",
-        "yelp-tools"
+        "yelp-tools",
+        "xdg-utils"
       ]
     },
     "ghcr.io/devcontainers-contrib/features/argo-cd": {},
@@ -167,9 +169,6 @@
     "ghcr.io/prulloac/devcontainer-features/ollama": {},
     "ghcr.io/prulloac/devcontainer-features/pre-commit": {},
     "ghcr.io/rio/features/kustomize": {},
-    "ghcr.io/robinmordasiewicz/features/kubectl-helm-minikube": {
-      "tools_path": "/usr/bin"
-    },
     "ghcr.io/robinmordasiewicz/features/ansible-galaxy": {
       "extensions": [
         "fortinet.console",
@@ -188,6 +187,9 @@
     "ghcr.io/robinmordasiewicz/features/fortidevsec": {},
     "ghcr.io/robinmordasiewicz/features/infracost": {},
     "ghcr.io/robinmordasiewicz/features/krew": {},
+    "ghcr.io/robinmordasiewicz/features/kubectl-helm-minikube": {
+      "tools_path": "/usr/bin"
+    },
     "ghcr.io/robinmordasiewicz/features/lazygit": {},
     "ghcr.io/robinmordasiewicz/features/lsd": {},
     "ghcr.io/robinmordasiewicz/features/nerd-fonts": {},
