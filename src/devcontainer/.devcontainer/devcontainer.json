@@ -228,6 +228,7 @@
     "ghcr.io/robinmordasiewicz/features/yq": {},
     "ghcr.io/robinmordasiewicz/features/zzz-preinstall-extensions": {
       "extensions": [
+        "anderson.vscode-extension-paste-image",
         "alexcvzz.vscode-sqlite",
         "continue.continue",
         "davidAnson.vscode-markdownlint",
