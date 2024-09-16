@@ -286,6 +286,7 @@
         "mtxr.sqltools",
         "mtxr.sqltools-driver-pg",
         "nhoizey.gremlins",
+        "nitayneeman.puppeteer-snippets",
         "omartawfik.github-actions-vscode",
         "postman.postman-for-vscode",
         "redhat.ansible",
