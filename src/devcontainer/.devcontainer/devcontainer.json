@@ -62,6 +62,7 @@
     "ghcr.io/devcontainers-contrib/features/apt-packages": {
       "packages": [
         "autoconf",
+        "asciidoctor",
         "bash-completion",
         "cmake",
         "dnsutils",
