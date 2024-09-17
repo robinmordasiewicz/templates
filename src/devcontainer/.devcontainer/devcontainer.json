@@ -247,7 +247,7 @@
       ]
     },
     "ghcr.io/robinmordasiewicz/features/nvidia-cuda": {
-      "cudaVersion": "12.5",
+      "cudaVersion": "12.5.1",
       "driverVersion": "550",
       "installToolkit": true
     },
