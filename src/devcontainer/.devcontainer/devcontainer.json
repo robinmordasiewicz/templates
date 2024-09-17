@@ -247,6 +247,8 @@
       ]
     },
     "ghcr.io/robinmordasiewicz/features/nvidia-cuda": {
+      "cudaVersion": "12.5",
+      "driverVersion": "550",
       "installToolkit": true
     },
     "ghcr.io/robinmordasiewicz/features/oh-my-posh": {},
