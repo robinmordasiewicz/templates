@@ -93,6 +93,7 @@
         "imagemagick",
         "inkscape",
         "iputils-ping",
+        "libfuse2",
         "libgif-dev",
         "libpoppler-cpp-dev",
         "libsecret-1-dev",
