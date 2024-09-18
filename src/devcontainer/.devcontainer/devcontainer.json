@@ -75,6 +75,7 @@
         "apparmor",
         "asciidoctor",
         "bash-completion",
+        "bat",
         "cmake",
         "dnsutils",
         "dos2unix",
