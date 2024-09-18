@@ -61,6 +61,7 @@
     "ghcr.io/devcontainers-contrib/features/actionlint": {},
     "ghcr.io/devcontainers-contrib/features/apt-packages": {
       "packages": [
+        "alsa-utils",
         "libappindicator3-1",
         "libdbusmenu-glib4",
         "libdbusmenu-gtk3-4",
