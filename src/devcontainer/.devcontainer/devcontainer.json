@@ -116,6 +116,7 @@
         "tesseract-ocr",
         "tofrodos",
         "ubuntu-drivers-common",
+        "vlc",
         "yelp-tools",
         "xdg-utils"
       ]
