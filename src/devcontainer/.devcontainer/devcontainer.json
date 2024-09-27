@@ -103,6 +103,7 @@
         "frei0r-plugins",
         "libgavl2",
         "sox",
+        "libglu1-mesa",
         "ladspa-sdk",
         "libmovit-dev",
         "libvidstab-dev",
