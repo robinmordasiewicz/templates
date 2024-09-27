@@ -259,6 +259,7 @@
     "ghcr.io/robinmordasiewicz/features/opencommit": {},
     "ghcr.io/robinmordasiewicz/features/speedtest": {},
     "ghcr.io/robinmordasiewicz/features/tflint": {},
+    "ghcr.io/robinmordasiewicz/features/ubuntu-restricted-extras": {},
     "ghcr.io/robinmordasiewicz/features/update-conda": {},
     "ghcr.io/robinmordasiewicz/features/vimrc": {},
     "ghcr.io/robinmordasiewicz/features/yq": {},
