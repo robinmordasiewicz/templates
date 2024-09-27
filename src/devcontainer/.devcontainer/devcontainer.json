@@ -102,7 +102,6 @@
         "melt",
         "frei0r-plugins",
         "libgavl2",
-        "ocaml-frei0r",
         "sox",
         "ladspa-sdk",
         "libmovit-dev",
