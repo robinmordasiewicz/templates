@@ -52,7 +52,10 @@
         "ansible",
         "ansible-creator",
         "ansible-dev-environment",
-        "oterm"
+        "oterm",
+        "fastapi",
+        "uvicorn",
+        "pydantic"
       ]
     },
     "ghcr.io/audacioustux/devcontainers/k9s": {},
