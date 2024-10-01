@@ -55,7 +55,10 @@
         "oterm",
         "fastapi",
         "uvicorn",
-        "pydantic"
+        "pydantic",
+        "google-api-python-client",
+        "oauth2client",
+        "progressbar2"
       ]
     },
     "ghcr.io/audacioustux/devcontainers/k9s": {},
