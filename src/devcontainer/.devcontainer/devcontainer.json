@@ -337,7 +337,6 @@
         "yzhang.markdown-all-in-one"
       ]
     },
-    "ghcr.io/rocker-org/devcontainer-features/miniforge": {},
     "ghcr.io/stuartleeks/dev-container-features/shell-history": {},
     "ghcr.io/warrenbuckley/codespace-features/sqlite": {}
   },
